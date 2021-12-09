@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,6 @@ namespace modus.Model.Models
         [BsonId]
         public Guid Id { get; set; }
         public User User { get; set; }
-        public Product Product { get; set; }
-
-        
+        public List<string> ProductIdList { get; set; }  
     }
 }

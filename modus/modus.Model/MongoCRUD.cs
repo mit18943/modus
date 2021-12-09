@@ -33,7 +33,7 @@ namespace modus.Model
             return collection.Find(new BsonDocument()).ToList();
         }
 
-        public T LoadRecordById<T>(string table, Guid id)
+        public T LoadRecordById<T>(string table, Guid id) // geht nur für Order, wegen Id Datentyp
         {
             var collection = db.GetCollection<T>(table);
             var filter = Builders<T>.Filter.Eq("Id", id);
@@ -42,7 +42,7 @@ namespace modus.Model
         }
 
         [Obsolete]
-        public void UpsertRecord<T>(string table, Guid id, T record)
+        public void UpsertRecord<T>(string table, Guid id, T record) // geht nur für Order, wegen Id Datentyp
         {
             var collection = db.GetCollection<T>(table);
 
@@ -54,7 +54,7 @@ namespace modus.Model
 
         }
 
-        public void DeleteRecord<T>(string table, Guid id)
+        public void DeleteRecord<T>(string table, Guid id) // geht nur für Order, wegen Id Datentyp
         {
             var collection = db.GetCollection<T>(table);
             var filter = Builders<T>.Filter.Eq("Id", id);
