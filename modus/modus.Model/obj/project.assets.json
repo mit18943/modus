@@ -389,19 +389,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucap\\.nuget\\packages\\": {}
+    "C:\\Users\\mscis\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucap\\Desktop\\modus\\modus\\modus.Model\\modus.Model.csproj",
-      "projectName": "modus.Model",
-      "projectPath": "C:\\Users\\lucap\\Desktop\\modus\\modus\\modus.Model\\modus.Model.csproj",
-      "packagesPath": "C:\\Users\\lucap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucap\\Desktop\\modus\\modus\\modus.Model\\obj\\",
+      "projectUniqueName": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+      "projectName": "modus.Core",
+      "projectPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+      "packagesPath": "C:\\Users\\mscis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lucap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mscis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -409,7 +413,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.org/api/v2": {}
       },
       "frameworks": {
         "net5.0": {
@@ -447,7 +452,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
