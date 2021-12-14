@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace modus.Data.Repositories.Base
 {
-    class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         protected readonly IMongoDatabase db;
 

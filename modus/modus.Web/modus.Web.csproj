@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\modus.Data\modus.Data.csproj" />
+    <ProjectReference Include="..\modus.Model\modus.Core.csproj" />
+  </ItemGroup>
+
 </Project>

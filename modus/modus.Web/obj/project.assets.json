@@ -165,6 +165,20 @@
         "runtime": {
           "bin/placeholder/modus.Core.dll": {}
         }
+      },
+      "modus.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MongoDB.Driver": "2.14.1",
+          "modus.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/modus.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/modus.Data.dll": {}
+        }
       }
     }
   },
@@ -399,11 +413,17 @@
       "type": "project",
       "path": "../modus.Model/modus.Core.csproj",
       "msbuildProject": "../modus.Model/modus.Core.csproj"
+    },
+    "modus.Data/1.0.0": {
+      "type": "project",
+      "path": "../modus.Data/modus.Data.csproj",
+      "msbuildProject": "../modus.Data/modus.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "modus.Core >= 1.0.0"
+      "modus.Core >= 1.0.0",
+      "modus.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -438,6 +458,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj": {
+              "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj"
+            },
             "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
               "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj"
             }

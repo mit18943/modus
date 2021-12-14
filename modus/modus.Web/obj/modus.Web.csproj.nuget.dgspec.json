@@ -4,14 +4,82 @@
     "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Web\\modus.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
+    "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
-        "projectName": "modus.Core",
-        "projectPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
+        "projectName": "modus.Data",
+        "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
         "packagesPath": "C:\\Users\\mscis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\obj\\",
+        "outputPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mscis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
+                "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+        "projectName": "modus.Core",
+        "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+        "packagesPath": "C:\\Users\\mscis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,6 +164,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj": {
+                "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj"
+              },
               "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
                 "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj"
               }

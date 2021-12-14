@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using modus.Core.Repositories.Base;
+using modus.Data.Repositories.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +25,7 @@ namespace modus.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient(typeof(BaseRepository<>),typeof(IRepository<>));
             services.AddControllersWithViews();
         }
 

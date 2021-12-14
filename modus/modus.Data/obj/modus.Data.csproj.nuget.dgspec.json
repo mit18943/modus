@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
+    "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
         "projectName": "modus.Core",
-        "projectPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+        "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
         "packagesPath": "C:\\Users\\mscis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\obj\\",
+        "outputPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

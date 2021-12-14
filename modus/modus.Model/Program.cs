@@ -7,7 +7,7 @@ namespace modus.Model
 {
     class Program
     {
-        static void Main(string[] args)
+      /*  static void Main(string[] args)
         {
             MongoCRUD db = new MongoCRUD("modusdb");
 
@@ -63,6 +63,6 @@ namespace modus.Model
 
           
         }
-
+      */
     }
 }

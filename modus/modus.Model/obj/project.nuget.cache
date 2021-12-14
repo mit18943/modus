@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l08w9vR8PeZw1iFToup6IK1ZpcJv/p9M7d08poSYc0mOwdJhD5ttza8Bhw9wCV0lq4Tyr1xejl5l38UB7Wk5ow==",
+  "dgSpecHash": "o61QEdXO7aPC7KrTWBcjPtcP+Hz+c3AdHhPOMEgIVPIV1zd08BGlIwBm3ShHKGeVXWHhRRSIm1RKLlQB3rzfuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mscis\\Source\\Repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
+  "projectFilePath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mscis\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\mscis\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
