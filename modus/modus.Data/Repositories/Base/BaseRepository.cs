@@ -1,4 +1,5 @@
-﻿using modus.Core.Repositories.Base;
+﻿using modus.Core.Data;
+using modus.Core.Repositories.Base;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -14,17 +15,17 @@ namespace modus.Data.Repositories.Base
     {
         protected readonly IMongoDatabase db;
 
-        public BaseRepository(string database)
+        public BaseRepository()
         {
-            var client = new MongoClient();
-            db = client.GetDatabase(database);
+            var client = new MongoClient("mongodb://localhost:27017");
+            db = client.GetDatabase("ModusDB");
         }
 
-        public async Task<IAsyncResult> DeleteRecordAsync(string table, Guid id)
+        public async Task<DeleteResult> DeleteRecordAsync(string table, string id)
         {
             var collection = db.GetCollection<TEntity>(table);
             var filter = Builders<TEntity>.Filter.Eq("Id", id);
-            return (IAsyncResult) await collection.DeleteOneAsync(filter);
+            return await collection.DeleteOneAsync(filter);
         }
 
         public async Task<TEntity> InsertRecordAsnyc(string table, TEntity record)
@@ -34,12 +35,17 @@ namespace modus.Data.Repositories.Base
             return record;
         }
 
-        public async Task<TEntity> LoadRecordByIdAsync(string table, Guid id)
+        public async Task<TEntity> LoadRecordByIdAsync(string table, string id)
         {
             var collection = db.GetCollection<TEntity>(table);
             var filter = Builders<TEntity>.Filter.Eq("Id", id);
 
-            return await collection.Find(filter).FirstAsync();
+
+            var x = await collection.Find(filter).FirstOrDefaultAsync();
+            if (x is not null)
+                return x;
+            else
+                return null;
         }
 
         public async Task<List<TEntity>> LoadRecordsAsnyc(string table)
@@ -49,16 +55,16 @@ namespace modus.Data.Repositories.Base
             return await collection.Find(new BsonDocument()).ToListAsync();
         }
 
-        [Obsolete]
-        public async Task<IAsyncResult> UpsertRecordAsync(string table, Guid id, TEntity record)
+        public async Task<TEntity> UpsertRecordAsync(string table, string id, TEntity record)
         {
             var collection = db.GetCollection<TEntity>(table);
 
-            return (IAsyncResult) await collection.ReplaceOneAsync(
-                new BsonDocument("_id", id),
-                record,
-                new UpdateOptions { IsUpsert = true }
+            var filter = Builders<TEntity>.Filter.Eq("Id", id);
+            return await collection.FindOneAndReplaceAsync(
+                filter,
+                record
                 );
         }
+
     }
 }

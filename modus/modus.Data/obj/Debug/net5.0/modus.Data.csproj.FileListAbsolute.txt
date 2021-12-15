@@ -1,0 +1,15 @@
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.csproj.AssemblyReference.cache
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.AssemblyInfoInputs.cache
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.AssemblyInfo.cs
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.csproj.CoreCompileInputs.cache
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\modus.Data.deps.json
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\modus.Data.dll
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\ref\modus.Data.dll
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\modus.Data.pdb
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\modus.Core.dll
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\bin\Debug\net5.0\modus.Core.pdb
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.csproj.CopyComplete
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.dll
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\ref\modus.Data.dll
+C:\Users\maxim\Source\Repos\modus\modus\modus.Data\obj\Debug\net5.0\modus.Data.pdb

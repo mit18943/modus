@@ -11,5 +11,6 @@ namespace modus.Core.Repositories
     public interface IUserRepository : IRepository<User>
     {
         Task<IEnumerable<User>> GetByEmailAsync();
+
     }
 }

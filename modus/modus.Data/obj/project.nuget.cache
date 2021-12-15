@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "u5ok/511v7dGzsPRkg/EwBBF2elxCKK5xunbbFHdgN7gZyw8tW68+K7HPmv4SZJHnmyVzGlz4m6/aBd8l021Aw==",
+  "dgSpecHash": "h4gpsRSTx88QaGjig/cCXmS48NZT5Sf/rtE/VMW/hh0EgwQgwGpGhRSmG9geyynooByghjuV69BxHfJnJz3WmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
+  "projectFilePath": "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mscis\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\mscis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\maxim\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

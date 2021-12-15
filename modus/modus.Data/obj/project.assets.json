@@ -157,6 +157,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "MongoDB.Bson": "2.14.1",
           "MongoDB.Driver": "2.14.1"
         },
         "compile": {
@@ -397,8 +398,8 @@
     },
     "modus.Core/1.0.0": {
       "type": "project",
-      "path": "../modus.Model/modus.Core.csproj",
-      "msbuildProject": "../modus.Model/modus.Core.csproj"
+      "path": "../modus.Core/modus.Core.csproj",
+      "msbuildProject": "../modus.Core/modus.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -408,23 +409,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mscis\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\maxim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
+      "projectUniqueName": "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
       "projectName": "modus.Data",
-      "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
-      "packagesPath": "C:\\Users\\mscis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Data\\obj\\",
+      "projectPath": "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Data\\modus.Data.csproj",
+      "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mscis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -432,15 +429,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.org/api/v2": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj": {
-              "projectPath": "C:\\Users\\mscis\\source\\repos\\modus\\modus\\modus.Model\\modus.Core.csproj"
+            "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Core\\modus.Core.csproj": {
+              "projectPath": "C:\\Users\\maxim\\Source\\Repos\\modus\\modus\\modus.Core\\modus.Core.csproj"
             }
           }
         }
@@ -475,7 +471,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
